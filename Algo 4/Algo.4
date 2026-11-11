@@ -1,0 +1,37 @@
+Exercice 5
+
+Algorithme   Equatin du seconde degré
+
+  Variables
+a : Reel 
+b : Reel 
+c : REEL
+  delta : Reel
+x , x1 , x2 : Reel
+ début
+
+   Ecrire ("Entrer un nombre pourna")
+   lire (a)
+
+   Ecrire ("Entrer un nombre pour b")
+   lire (b)
+
+   Ecrire ("Entrer un nombre pour c")
+   lire (c)
+
+   si a <> 0 alors 
+    
+  delta ← b^2 - 4*a*c
+   
+   si delta > 0 alors
+   x1 ← (-b - Racine(delta))/(2*a)
+   x2← (-b + Racine(delta))/(2*a)
+Ecrire("x1 = ", x1)
+Ecrire("x2 = ", x2)
+   sinonsi  delta = 0 
+  afficher("Une solution double")
+ x = -b / (2*a)
+     sinon 
+   afficher ("aucune solution")
+ Finsi
+fin
