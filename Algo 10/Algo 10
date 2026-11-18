@@ -1,0 +1,13 @@
+Exercice 10
+
+Début
+
+Algorithme : Mention d’un étudiant
+
+Variable : m:entier
+ Lire une moyenne sur 20 et afficher la mention 
+ moyenne < 10 : refusé
+ 10 ≤ moyenne < 12 : passable– 12 ≤ moyenne < 14 : assez bien
+ 14 ≤ moyenne < 16 : bien– moyenne ≥ 16 : très bien
+
+ Fin

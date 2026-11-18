@@ -1,0 +1,19 @@
+Exercice 8
+algorithme: remise commerciale
+
+Début
+
+Variable
+    m(montant): réel
+lire montant
+Si montant > 100 Alors
+ remise ← montant × 0,10
+ Sinon
+ remise ← 0
+ FinSi
+
+ montantAPayer ← montant - remise
+ Afficher "Montant de la remise : ", remise, " €"
+ Afficher "Montant à payer : ", montantAPayer, " €"
+ 
+ Fin

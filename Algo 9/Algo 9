@@ -1,0 +1,16 @@
+Exercice 9
+
+Algorithme: Calcul de l’IMC
+
+Début
+
+Variable:
+  IMC : réel
+Lire le poids (kg) et la taille (m) ; calculer IMC = poids / taille²
+ Afficher la catégorie
+  IMC < 18,5 : maigreur
+   18,5 ≤ IMC < 25 : normal
+   25 ≤ IMC < 30 : surpoids
+   IMC ≥ 30 : obésité
+
+Fin
