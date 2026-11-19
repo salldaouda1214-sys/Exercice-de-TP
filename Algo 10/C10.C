@@ -6,17 +6,17 @@ int main() {
     printf("Saisir la moyenne sur 20 : ");
     scanf("%f", &moyenne);
 
-    if (moyenne < 10) {
+    if (moyenne < 10) 
         printf("Mention : Refuse\n");
-    } else if (moyenne < 12) {
+     else if (moyenne < 12) 
         printf("Mention : Passable\n");
-    } else if (moyenne < 14) {
+     else if (moyenne < 14) 
         printf("Mention : Assez bien\n");
-    } else if (moyenne < 16) {
+     else if (moyenne < 16) 
         printf("Mention : Bien\n");
-    } else {
+     else 
         printf("Mention : Tres bien\n");
-    }
+    
 
     return 0;
 }

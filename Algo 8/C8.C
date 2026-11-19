@@ -6,13 +6,13 @@ int main() {
     printf("Saisir le montant de l'achat : ");
     scanf("%f", &montant);
 
-    if (montant > 100) {
+    if (montant > 100) 
         remise = montant * 0.10;
-    } else {
+     else 
         remise = 0;
-    }
+    
 
-    montantAPayer = montant - remise;
+    montant a Payer = montant - remise;
 
     printf("Montant de la remise : %.2f €\n", remise);
     printf("Montant à payer : %.2f €\n", montantAPayer);

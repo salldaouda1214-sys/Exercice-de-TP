@@ -13,15 +13,14 @@ int main() {
 
     printf("IMC = %.2f\n", imc);
 
-    if (imc < 18.5) {
+    if (imc < 18.5) 
         printf("Categorie : Maigreur\n");
-    } else if (imc < 25) {
+     else if (imc < 25) 
         printf("Categorie : Normal\n");
-    } else if (imc < 30) {
+     else if (imc < 30) 
         printf("Categorie : Surpoids\n");
-    } else {
+     else 
         printf("Categorie : Obesite\n");
-    }
-
+    
     return 0;
 }
