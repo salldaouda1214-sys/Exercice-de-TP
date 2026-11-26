@@ -7,7 +7,7 @@ int main()
 
     printf("Le signe d'un nombre \n");
 
-    printf("ajoute un nombre  : \n");
+    printf("ajoute un nombre  : ");
     scanf("%d", &S);
 
 
@@ -23,7 +23,7 @@ int main()
     }
     else
     {
-        printf("Null");
+        printf("Nulle\n");
     }
     return 0;
 }
